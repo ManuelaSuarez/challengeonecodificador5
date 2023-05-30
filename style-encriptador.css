@@ -160,13 +160,13 @@ main{
     color: #495057;
 }
 
-.botoncopiar{
+.contenedorbotoncopiar{
     position: absolute;
     bottom: 20px;
     left: 75px;
 }
 
-.botoncopiar input{
+.botoncopiar{
     height: 40px;
     width: 159px;
     border-radius: 24px;
