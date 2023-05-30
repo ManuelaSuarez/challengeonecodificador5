@@ -1,0 +1,205 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    
+    background-color: #F3F5FC;
+}
+
+header{
+    width: 100%;
+}
+
+.logoalura{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajaparatexto{
+    position: absolute;
+    top: 168px;
+    left: 240px;
+}
+
+.ingresartexto{
+    height: 48px;
+    width: 577px;
+    border: none;
+    background-color: #F3F5FC;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    resize: none;
+    outline-style: none;
+}
+
+.ingresartexto::placeholder{
+    color: #0A3871;
+    ;
+}
+
+.alerta{
+    position: absolute;
+    bottom: 165px;
+    left: 240px;
+    height: 18px;
+    width: 300px;
+    display: flex;
+}
+
+.exclamacion{
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    top: 1px;
+}
+
+.requisitos{
+    display: inline-block;
+    width: 205px;
+    height: 18px;
+    opacity: 0,8;
+    color: #495057;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.botones{
+    position: absolute;
+    bottom: 85px;
+    left: 240px;
+    width: 680px;
+    height: 67px;
+}
+
+.encriptador{
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    border: none;
+    padding: 24px;
+    cursor: pointer;
+    background-color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.desencriptador{
+    height: 67px;
+    width: 328px;
+    left: 352px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    cursor: pointer;
+    background-color: #D8DFE8;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+
+
+.cajaderesultado{
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    height: 650px;
+    width: 300px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+
+}
+
+.munieco{
+    position: absolute;
+    width: 240px;
+    left: 30px;
+    top: 198px;
+}
+
+.mensajeprevio{
+    position: absolute;
+    width: 240px;
+    height: 102px;
+    top: 435px;
+    left: 30px;
+}
+
+.mensajeprevio h3{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensajeprevio p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+}
+
+.botoncopiar{
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+}
+
+.botoncopiar input{
+    height: 40px;
+    width: 159px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+.contenedorresultado{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 605px;
+    width: 285px;
+}
+
+.resultado{
+    font-size: 20px;
+    font-weight: 400;
+    color: #495057;
+}
+
+footer{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #0A3871;
+}
+
+.ocultar{
+    display: none;
+}

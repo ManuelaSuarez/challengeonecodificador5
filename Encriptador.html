@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-encriptador.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <img class="logoalura" src="imagenes/Logo.png" alt="Logo Alura" >
+        </header>
+
+        <main>
+            <section class="cajaparatexto">
+                <textarea class="ingresartexto" placeholder="Ingrese el texto aquí"></textarea>
+            </section>
+
+            <section class="alerta">
+                <img class="exclamacion" src="imagenes/bi_exclamation-circle-fill.png" alt="signo de exclamación">
+                <p class="requisitos">Solo letras minúsculas y sin acentos</p>
+            </section>
+
+            <section class="botones">
+                <input class="encriptador" type="button" value="Encriptar">
+                <input class="desencriptador" type="button" value="Desencriptar">
+            </section>
+
+            <section class="cajaderesultado">
+                <div>
+                    <img class="munieco" src="imagenes/Muñeco.png" alt="Muñeco">
+                </div>
+
+                <div class="mensajeprevio">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+
+                <div class="botoncopiar">
+                    <input type="button" value="Copiar">
+                </div>
+
+                <div class="contenedorresultado">
+                    <p class="resultado"></p>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer>
+           <p>Página desarrollada por Manuela Suárez Surraco</p> 
+        </footer>
+        
+        <script src="script-encriptador.js"></script>
+
+        </body>
+        
+</html>
